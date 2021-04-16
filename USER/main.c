@@ -25,11 +25,11 @@
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置中断优先级分组为组2：2位抢占优先级，2位响应优先级
 	uart_init(115200);	 	//串口初始化为115200
  	LED_Init();			     //LED端口初始化
-	LCD_Init();			 	
+	LCD_Init();			 		//LCD初始化
  	Adc_Init();		  		//ADC初始化
 
 	POINT_COLOR=RED;//设置字体为红色 
-	LCD_ShowString(60,50,200,16,16,"Elite STM32");	
+	LCD_ShowString(60,50,200,16,16,"Elite STM32");		//LCD显示内容
 	LCD_ShowString(60,70,200,16,16,"ADC TEST");	
 	LCD_ShowString(60,90,200,16,16,"ATOM@ALIENTEK");
 	LCD_ShowString(60,110,200,16,16,"2015/1/14");	
