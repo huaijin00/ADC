@@ -28,7 +28,7 @@
 	LCD_Init();			 		//LCD初始化
  	Adc_Init();		  		//ADC初始化
 
-	POINT_COLOR=RED;//设置字体为红色 
+	POINT_COLOR=GRED;//设置字体为红色 
 	LCD_ShowString(60,50,200,16,16,"Elite STM32");		//LCD显示内容
 	LCD_ShowString(60,70,200,16,16,"ADC TEST");	
 	LCD_ShowString(60,90,200,16,16,"ATOM@ALIENTEK");
